@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "commandLineArgs": "-h localhost -p 5000 -s true -r 10000000 -t 5 -l false"
+    }
+  }
+}

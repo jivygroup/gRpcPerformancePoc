@@ -1,0 +1,26 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "StreamingApi.Protos";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/any.proto";
+import "google/protobuf/empty.proto";
+
+package Contracts;
+
+service StreamingApi {
+  rpc Update (UpdateRequest) returns (UpdateResponse);
+  rpc UpdateStream(stream UpdateRequest) returns (UpdateResponse);
+}
+
+
+message UpdateRequest  {
+  string subcription_id = 1;  
+  string item_name = 2;
+  map<string, string> items = 3;
+  bool is_snapshot = 4;
+}
+
+message UpdateResponse  {
+}
+

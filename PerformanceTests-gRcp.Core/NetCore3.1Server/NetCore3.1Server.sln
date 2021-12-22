@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore3.1Server", "NetCore3.1Server.csproj", "{FA25816C-B00D-427C-8FA1-A7DC545E6CC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "..\Contracts\Contracts.csproj", "{1ACEE9E1-03D4-43EC-8706-F334E7773A8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA25816C-B00D-427C-8FA1-A7DC545E6CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25816C-B00D-427C-8FA1-A7DC545E6CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25816C-B00D-427C-8FA1-A7DC545E6CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25816C-B00D-427C-8FA1-A7DC545E6CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACEE9E1-03D4-43EC-8706-F334E7773A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACEE9E1-03D4-43EC-8706-F334E7773A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACEE9E1-03D4-43EC-8706-F334E7773A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACEE9E1-03D4-43EC-8706-F334E7773A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B51124CA-B9B1-447E-9285-26A67C49377C}
+	EndGlobalSection
+EndGlobal
