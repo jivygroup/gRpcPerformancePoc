@@ -28,8 +28,6 @@ namespace SCM_GrpcNetCore
 
         public async Task SendUpdateStream(UpdateRequest request)
         {
-            _client.Update(request);
-
             await _updateRequestStreamWriter.RequestStream.WriteAsync(request);
         }
     }
